@@ -27,7 +27,7 @@ if (process.env.DATABASE_CLIENT === 'pg') {
       user: process.env.DATABASE_V3_USER,
       password: process.env.DATABASE_V3_PASSWORD,
       database: process.env.DATABASE_V3_DATABASE,
-      ssl: process.env.DATABASE_V3_SSL,
+      ssl: false,
     },
   };
 
@@ -39,7 +39,7 @@ if (process.env.DATABASE_CLIENT === 'pg') {
       user: process.env.DATABASE_V4_USER,
       password: process.env.DATABASE_V4_PASSWORD,
       database: process.env.DATABASE_V4_DATABASE,
-      ssl: process.env.DATABASE_V4_SSL,
+      ssl: false,
     },
   };
 }
